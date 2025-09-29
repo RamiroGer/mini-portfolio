@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini Portfolio River Plate</title>
+<style>
+  body { font-family: Arial, sans-serif; margin:0; background:#f9f9f9; color:#222; }
+  header { display:flex; align-items:center; justify-content:space-between; padding:12px 20px; background:#fff; border-bottom:2px solid #d00; }
+  header img.logo { width:60px; }
+  header nav a { margin-left:15px; text-decoration:none; color:#d00; font-weight:bold; }
+  .banner { width:100%; max-height:400px; object-fit:cover; display:block; }
+  main { padding:20px; }
+  section { margin-bottom:40px; }
+  h2 { color:#d00; border-bottom:2px solid #d00; padding-bottom:6px; }
+  .players, .gallery, .stats { display:flex; flex-wrap:wrap; gap:16px; }
+  .card { background:#fff; border-radius:8px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.1); width:240px; }
+  .card img { width:100%; display:block; }
+  .card figcaption { padding:8px; font-size:0.9rem; color:#333; }
+  .gallery img { width:200px; height:120px; object-fit:cover; border-radius:6px; }
+  .stats .card { width:150px; text-align:center; padding:12px; }
+  footer { text-align:center; padding:20px; background:#f4f4f4; }
+  footer img { width:40px; margin:0 4px; }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="images/river_escudo.svg" alt="Escudo River Plate" class="logo">
+  <nav>
+    <a href="#players">Jugadores</a>
+    <a href="#history">Historia</a>
+    <a href="#gallery">Galería</a>
+    <a href="#stats">Logros</a>
+  </nav>
+</header>
+
+<img class="banner" src="images/monumental.jpg" alt="Estadio Monumental">
+
+<main>
+
+<section id="players">
+  <h2>Jugadores Destacados de hoy (2025)</h2>
+  <div class="players">
+    <figure class="card">
+      <img src="images/franco_armani.jpg" alt="Franco Armani">
+      <figcaption>Franco Armani — arquero y referente</figcaption>
+    </figure>
+    <figure class="card">
+      <img src="images/juanfer_quintero.jpg" alt="Juanfer Quintero">
+      <figcaption>Juanfer Quintero — mediocampista creativo</figcaption>
+    </figure>
+    <figure class="card">
+      <img src="images/giuliano_galoppo.jpg" alt="Giuliano Galoppo">
+      <figcaption>Giuliano Galoppo — mediocampista central</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="history">
+  <h2>Historia de River Plate</h2>
+  <p>
+    Club Atlético River Plate fue fundado el 25 de mayo de 1901 en el barrio de La Boca, Buenos Aires. Desde sus inicios, River se destacó por su compromiso con el fútbol ofensivo y su identidad en el juego. El club se trasladó rápidamente al barrio de Núñez, donde construyó el emblemático Estadio Monumental, inaugurado en 1938, que se ha convertido en un símbolo del fútbol argentino y sudamericano.
+  </p>
+  <p>
+    A lo largo de más de un siglo de historia, River Plate ha cosechado numerosos campeonatos nacionales, siendo uno de los clubes más exitosos de Argentina con 38 títulos de liga. Internacionalmente, el club se consagró campeón de la Copa Libertadores en cuatro ocasiones (1986, 1996, 2015 y 2018), además de obtener la Copa Intercontinental en 1986, convirtiéndose en un referente del fútbol mundial.
+  </p>
+  <p>
+    River Plate también se caracteriza por haber formado a grandes figuras del fútbol, tanto nacionales como internacionales, y por su estilo de juego atractivo y ofensivo. La hinchada millonaria, conocida por su pasión y fidelidad, ha sido protagonista de memorables jornadas en el Monumental y en cada estadio del país.
+  </p>
+  <p>
+    Además de su historia futbolística, River Plate ha contribuido al desarrollo del deporte y la cultura en Argentina, siendo un club pionero en organización, infraestructura y formación de jóvenes talentos. Su legado perdura y continúa creciendo, consolidando a River Plate como un símbolo de excelencia, pasión y tradición en el fútbol argentino.
+  </p>
+  <img src="images/river_historia.jpg" alt="Historia de River Plate" style="width:100%;max-width:600px;margin-top:12px;border-radius:8px;">
+</section>
+
+
+<section id="gallery">
+  <h2>Galería</h2>
+  <div class="gallery">
+    <img src="images/franco_armani.jpg" alt="Armani en acción">
+    <img src="images/juanfer_quintero.jpg" alt="Juanfer celebrando">
+    <img src="images/giuliano_galoppo.jpg" alt="Galoppo jugando">
+    <img src="images/monumental.jpg" alt="Estadio Monumental lleno">
+  </div>
+</section>
+
+<section id="stats">
+  <h2>Logros</h2>
+  <div class="stats">
+    <div class="card">
+      <h3>38</h3>
+      <p>Campeonatos Nacionales</p>
+    </div>
+    <div class="card">
+      <h3>4</h3>
+      <p>Copa Libertadores</p>
+    </div>
+    <div class="card">
+      <h3>1</h3>
+      <p>Copa Intercontinental</p>
+    </div>
+  </div>
+</section>
+
+
+</main>
+
+<footer>
+  © 2025 Club Atlético River Plate
+  <img src="images/soccer_ball.svg" alt="Icono pelota">
+  <img src="images/river_escudo.svg" alt="Icono decorativo">
+</footer>
+
+</body>
+</html>
